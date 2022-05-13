@@ -1,0 +1,54 @@
+*{
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, black,  rgb(138, 135, 135), rgb(175, 80, 80));
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-inline-start: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+}
+
+.solida {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+
+.transparente {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.gradiente {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: linear-gradient(to right, #1619c2, #B4C6D9, rgb(17, 226, 111) );
+    text-align: center;
+}
+
+.image-u {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url("Alpha.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.image-r {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url("Alpha.jpg");
+    text-align: center;
+    background-repeat: repeat-x;
+}
